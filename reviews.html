@@ -40,40 +40,42 @@
     <header class="header">
         <div class="container">
             <div class="content">
-                <h1>Оборудование</h1>
+                <h1>Отзывы</h1>
             </div>
         </div>
     </header>
+    <main class="main">
+        <div class="container">
+          <div class="content">
+  
+            <div class="form__wrap">
+              <div class="form__title">Ваш отзыв очень важен для нас!</div>
+  
+              <form action="php/order.php" class="form form-order" method="POST">
+                <div class="form__list">
+                  <fieldset class="form__item">
+                    <input type="text" name="username" placeholder="Введите имя*" required minlength="2" maxlength="32" class="form__inp">
+                  </fieldset>
+                  <fieldset class="form__item">
+                    <input type="email" name="usermail" placeholder="Введите емайл*" required  class="form__inp">
+                  </fieldset>
+                  <fieldset class="form__item">
+                    <input type="tel" name="userphone" placeholder="Введите телефон*" required pattern="^\+7[0-9]{10}$" class="form__inp">
+                  </fieldset>
+                  <fieldset class="form__item">
+                    <input type="text" name="usertext" placeholder="Введите текст*" required class="form__inp-text">
+                  </fieldset>
+  
+                  <fieldset class="form__item">
+                    <button class="form__btn">ОТПРАВИТЬ</button>
+                  </fieldset>
+                </div>
+              </form>
+            </div>            
+          </div>
+        </div>
+      </main>
 
-    <main class="main">  
-                <section class="slider__wrap">
-                   <div id="slider__viewport" class="slider__viewport">
-                        <div class="slider">
-                            <div class="slide"><img src="./img/slaider/slaid 1.jpg" ait="Модель в стразах"></div>
-                            <div class="slide"><img src="./img/slaider/slide 2.jpg" ait="Кольцо"></div>
-                            <div class="slide"><img src="./img/slaider/slide 3.jpg" ait="Жемчуг"></div>
-                            <div class="slide"><img src="./img/slaider/slide 4.jpg" ait="Кольцо"></div>
-                            <div class="slide"><img src="./img/slaider/slide 5.jpeg" ait="Ожерелье"></div>
-                        </div>
-                    </div>
-
-                    <div class="slider__control">
-                        <div class="slider__control-button" id="slider__control-prev">назад</div>
-                        <div class="slider__control-button" id="slider__control-next">вперед</div>
-                    </div>
-
-                    <div class="slider__pagination">
-                        <div id="viewSlider">
-                            <div class="viewSlide"></div>
-                            <div class="viewSlide"></div>
-                            <div class="viewSlide"></div>
-                            <div class="viewSlide"></div>
-                            <div class="viewSlide"></div>
-                        </div>
-                    </div>
-                </section>
-         
-    </main>
     <footer class="footer">
         <div class="container">
             <div class="content">
@@ -81,9 +83,8 @@
             </div>
         </div>
     </footer>
+
     <script type="text/javaScript" src="./scripts/script.js"></script>
 </body>
 
 </html>
-
-

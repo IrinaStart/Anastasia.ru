@@ -95,3 +95,8 @@ btnPrev.addEventListener("click", function () {
     // Меняем позицию всего слайда
     slider.style.left = -viewSlide * viewport + "px";
 });
+
+
+
+
+
