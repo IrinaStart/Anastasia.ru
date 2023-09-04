@@ -5,9 +5,9 @@
   max-width: 1000px;
   justify-content: center;
   justify-items: center;
-   column-gap: 30px;
-   row-gap: 40px;
-    margin: 0 auto;
+  column-gap: 30px;
+  row-gap: 40px;
+  margin: 0 auto;
 }
 
 
@@ -42,7 +42,7 @@
 
 /* При наведении на карточку - меняем цвет тени */
 .card:hover {
-  box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+  box-shadow: 4px 8px 16px rgba(38, 2, 83, 0.2);
 }
 
 .card__top {
@@ -82,15 +82,15 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
-  background: rgb(183, 71, 127);
+  background: rgb(131, 47, 140);
   border-radius: 4px;
   font-weight: 400;
   font-size: 16px;
-  color: #fff;
+  color: #d9c6df;
 }
 
 .card__bottom {
-  display: flex;
+ 
   flex-direction: column;
   flex: 1 0 auto;
   /* Занимаем всю оставшуюся высоту карточки */
@@ -159,10 +159,10 @@
   width: 100%;
   font-weight: 400;
   font-size: 17px;
-  color: #70c05b;
+  color: #6641a6;
   padding: 10px;
   text-align: center;
-  border: 1px solid #70c05b;
+  border: 1px solid #64118a;
   border-radius: 4px;
   cursor: pointer;
   /* Меняем курсор при наведении */

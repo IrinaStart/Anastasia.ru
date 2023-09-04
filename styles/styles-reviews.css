@@ -38,6 +38,13 @@
     font-size: 20px;
     transition: 0.5s;
     border-radius: 10px;
+      }
+  .form__inp-text:hover {
+    border-color: #ef07ae;
+  }
+  .form__inp-text:active,
+  .form__inp-text:focus {
+    border-color: aqua;
   }
   .form__inp:hover {
     border-color: #ef07ae;

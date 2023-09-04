@@ -48,12 +48,13 @@
 
   echo 'отпрвка формы'; 
  
-  
 
-  header("Location: file:///C:/Users/Sergei/Desktop/Anastasia.ru/thanks.html success.html"); /* Перенаправление броузера */
+
+  header("Location: ftp://beznoskj_user@beznoskj.beget.tech/beznoskj.beget.tech/public_html/dev/form/thanks.html success.html"); /* Перенаправление броузера */
 
 /* Можно убедиться, что следующий за командой код не выполнится из-за
 перенаправления.*/
+
 exit;
 
 ?>
