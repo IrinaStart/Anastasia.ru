@@ -113,7 +113,7 @@
 .card__price--discount {
   font-weight: 700;
   font-size: 19px;
-  color: #414141;
+  color: #492f63;
   display: flex;
   flex-wrap: wrap-reverse;
 }
@@ -127,8 +127,8 @@
 
 .card__price--common {
   font-weight: 400;
-  font-size: 17px;
-  color: #606060;
+  font-size: 19px;
+  color: #998e8e;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: flex-end;
